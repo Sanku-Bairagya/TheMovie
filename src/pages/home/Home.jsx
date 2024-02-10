@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.scss'
-import HeroBanner from './heroBanner/heroBanner'
-import Trending from './trending/trending'
+import HeroBanner from './heroBanner/HeroBanner.jsx'
+import Trending from './trending/Trending.jsx'
 import Popular from './popular/Popular'
 import TopRated from './topRated/TopRated'
 const Home = () => {
