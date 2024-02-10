@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import'./style.scss'
-import useFetch from "../../hooks/useFetch"
+import UseFetch from "../../hooks/UseFetch.jsx"
 import Detailsbanner from './detailsBanner/Detailsbanner';
 import Cast from './cast/Cast';
 import VideoSection from './videoeSection/VideoSection';
@@ -10,8 +10,8 @@ import Recommendation from "./carousels/Recommendation.jsx"
 
 const Details = ({}) => {
   const {mediaType,id} = useParams();
-  const {data,loading} = useFetch(`/${mediaType}/${id}/videos`)
-  const {data:credits,loading:creditsLoading} = useFetch(`/${mediaType}/${id}/credits`)
+  const {data,loading} = UseFetch(`/${mediaType}/${id}/videos`)
+  const {data:credits,loading:creditsLoading} = UseFetch(`/${mediaType}/${id}/credits`)
   return (
    <div>
       <Detailsbanner video={data?.results?.[0]} crew={credits?.crew}/>

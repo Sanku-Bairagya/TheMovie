@@ -2,11 +2,11 @@
 import React from "react";
 import './reco.scss'
 import Carousel from "../../../Components/carousel/Carousel";
-import useFetch from "../../../hooks/useFetch";
+import UseFetch from "../../../hooks/UseFetch.jsx";
 import ContentWrapper from "../../../Components/contentwrapper/ContentWrapper";
 
 const Recommendation = ({ mediaType, id }) => {
-    const { data, loading, error } = useFetch(
+    const { data, loading, error } = UseFetch(
         `/${mediaType}/${id}/recommendations`
     );
 

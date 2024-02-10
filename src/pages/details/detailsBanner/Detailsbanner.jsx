@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux'
 import dayjs from 'dayjs'
 import './style.scss'
 import ContentWrapper from '../../../Components/contentwrapper/ContentWrapper'
-import useFetch from '../../../hooks/useFetch'
+import UseFetch from '../../../hooks/UseFetch.jsx'
 import Genres from '../../../Components/genres/Genres'
 import CircleRating from '../../../Components/circleRating/CircleRating'
 import Img from '../../../Components/lazyLoadImage/Img'
@@ -20,7 +20,7 @@ const Detailsbanner = ({video,crew}) => {
     const [videoId,setVideoId] = useState(null);
 
     const {mediaType,id} = useParams();
-    const {data,loading} = useFetch(`/${mediaType}/${id}`)
+    const {data,loading} = UseFetch(`/${mediaType}/${id}`)
     const {url} = useSelector((state) => state.home)
     const time = (totalMinutes) => {
         const hours = Math.floor(totalMinutes / 60);

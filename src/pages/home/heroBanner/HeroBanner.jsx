@@ -2,7 +2,7 @@ import React from 'react'
 import { useState,useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import "./style.scss"
-import useFetch from '../../../hooks/useFetch'
+import UseFetch from '../../../hooks/UseFetch.jsx'
 import {  useSelector } from 'react-redux'
 import Img from '../../../Components/lazyLoadImage/Img'
 import ContentWrapper from "../../../Components/contentwrapper/ContentWrapper";
@@ -14,7 +14,7 @@ const heroBanner = () => {
   const [query,setQuery] = useState("");
   const navigate = useNavigate();
   const {url} = useSelector((state) => state.home);
-  const {data, loading} = useFetch("/movie/upcoming"); // this custom hook is used for the main image in the banner section at home page
+  const {data, loading} = UseFetch("/movie/upcoming"); // this custom hook is used for the main image in the banner section at home page
 
   useEffect(()=>{
     const bg = url.backdrop + data?.results?.[Math.floor(Math.random() * 20)]?.backdrop_path;

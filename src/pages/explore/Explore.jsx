@@ -5,7 +5,7 @@ import Select from "react-select";
 
 import "./style.scss";
 
-import useFetch from "../../hooks/useFetch"
+import UseFetch from "../../hooks/UseFetch.jsx"
 import  {fetchDataFromApi}  from "../../utils/api";
 import ContentWrapper from "../../Components/contentwrapper/ContentWrapper";
 import MovieCard from "../../Components/movieCard/MovieCard";
@@ -34,7 +34,7 @@ const Explore = () => {
     const [sortby, setSortby] = useState(null);
     const { mediaType } = useParams();
 
-    const { data : genresData } = useFetch(`/genre/${mediaType}/list`);
+    const { data : genresData } = UseFetch(`/genre/${mediaType}/list`);
 
     const fetchInitialData = () => {
         setLoading(true);
