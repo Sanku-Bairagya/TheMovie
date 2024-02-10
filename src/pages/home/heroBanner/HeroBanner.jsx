@@ -5,7 +5,7 @@ import "./style.scss"
 import UseFetch from '../../../hooks/UseFetch.jsx'
 import {  useSelector } from 'react-redux'
 import Img from '../../../Components/lazyLoadImage/Img'
-import ContentWrapper from "../../../Components/contentwrapper/ContentWrapper";
+
 
 
 

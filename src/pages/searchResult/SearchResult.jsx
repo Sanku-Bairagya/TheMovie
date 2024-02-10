@@ -9,8 +9,6 @@ import Spinner from "../../Components/spinner/Spinner"
 import noResults from "../../assets/no-results.png"
 
 
-
-
 const SearchResult = () => {
 
   const [data,setData] = useState(null);

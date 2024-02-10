@@ -13,7 +13,7 @@ import PosterFallBack from '../../../assets/no-poster.png'
 
 import {PlayButton} from "../PlayButton"
 import Videopopup from '../../../Components/videoPopup/Videopopup'
-import Cast from '../cast/Cast'
+
 const Detailsbanner = ({video,crew}) => {
 
     const [show,setShow] = useState(false);

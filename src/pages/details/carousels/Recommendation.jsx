@@ -3,7 +3,7 @@ import React from "react";
 import './reco.scss'
 import Carousel from "../../../Components/carousel/Carousel";
 import UseFetch from "../../../hooks/UseFetch.jsx";
-import ContentWrapper from "../../../Components/contentwrapper/ContentWrapper";
+
 
 const Recommendation = ({ mediaType, id }) => {
     const { data, loading, error } = UseFetch(
