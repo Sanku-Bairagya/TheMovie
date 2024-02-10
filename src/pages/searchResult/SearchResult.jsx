@@ -3,9 +3,9 @@ import { useParams } from 'react-router-dom'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import "./style.scss"
 import {fetchDataFromApi} from "../../utils/api"
-import ContentWrapper from '../../Components/contentwrapper/ContentWrapper'
-import MovieCard from "../../Components/movieCard/MovieCard"
-import Spinner from "../../Components/spinner/Spinner"
+import ContentWrapper from '../../Components/contentwrapper/ContentWrapper.jsx'
+import MovieCard from "../../Components/movieCard/MovieCard.jsx"
+import Spinner from "../../Components/spinner/Spinner.jsx"
 import noResults from "../../assets/no-results.png"
 
 

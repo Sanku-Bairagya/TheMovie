@@ -2,10 +2,10 @@ import React from 'react'
 import { useParams } from 'react-router-dom';
 import'./style.scss'
 import UseFetch from "../../hooks/UseFetch.jsx"
-import Detailsbanner from './detailsBanner/Detailsbanner';
-import Cast from './cast/Cast';
-import VideoSection from './videoeSection/VideoSection';
-import Similar from "./carousels/Similar"
+import Detailsbanner from './detailsBanner/Detailsbanner.jsx';
+import Cast from './cast/Cast.jsx';
+import VideoSection from './videoeSection/VideoSection.jsx';
+import Similar from "./carousels/Similar.jsx"
 import Recommendation from "./carousels/Recommendation.jsx"
 
 const Details = ({}) => {

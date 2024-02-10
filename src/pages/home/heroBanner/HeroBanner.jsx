@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import "./style.scss"
 import UseFetch from '../../../hooks/UseFetch.jsx'
 import {  useSelector } from 'react-redux'
-import Img from '../../../Components/lazyLoadImage/Img'
+import Img from '../../../Components/lazyLoadImage/Img.jsx'
 
 
 

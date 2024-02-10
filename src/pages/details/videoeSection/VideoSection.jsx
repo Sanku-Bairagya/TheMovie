@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import "./style.scss"
-import ContentWrapper from "../../../Components/contentwrapper/ContentWrapper";
-import {PlayButton} from "../PlayButton"
-import Videopopup from "../../../Components/videoPopup/Videopopup"
-import Img from '../../../Components/lazyLoadImage/Img';
+
+import {PlayButton} from "../PlayButton.jsx"
+import Videopopup from "../../../Components/videoPopup/Videopopup.jsx"
+import Img from '../../../Components/lazyLoadImage/Img.jsx';
 
 
 const VideoSection = ({ data,loading }) => {

@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
-import ContentWrapper from '../../../Components/contentwrapper/ContentWrapper'
-import Switchtabs from '../../../Components/switchtabs/Switchtabs'
+import ContentWrapper from '../../../Components/contentwrapper/ContentWrapper.jsx'
+import Switchtabs from '../../../Components/switchtabs/Switchtabs.jsx'
 import UseFetch from '../../../hooks/UseFetch.jsx'
 import '../../home/style.scss'
 import Carousel from '../../../Components/carousel/Carousel.jsx'

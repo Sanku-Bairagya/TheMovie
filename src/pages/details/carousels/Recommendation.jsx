@@ -1,7 +1,7 @@
 
 import React from "react";
 import './reco.scss'
-import Carousel from "../../../Components/carousel/Carousel";
+import Carousel from "../../../Components/carousel/Carousel.jsx";
 import UseFetch from "../../../hooks/UseFetch.jsx";
 
 

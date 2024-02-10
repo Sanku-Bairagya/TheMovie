@@ -4,15 +4,15 @@ import { useParams } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import dayjs from 'dayjs'
 import './style.scss'
-import ContentWrapper from '../../../Components/contentwrapper/ContentWrapper'
+import ContentWrapper from '../../../Components/contentwrapper/ContentWrapper.jsx'
 import UseFetch from '../../../hooks/UseFetch.jsx'
-import Genres from '../../../Components/genres/Genres'
-import CircleRating from '../../../Components/circleRating/CircleRating'
-import Img from '../../../Components/lazyLoadImage/Img'
+import Genres from '../../../Components/genres/Genres.jsx'
+import CircleRating from '../../../Components/circleRating/CircleRating.jsx'
+import Img from '../../../Components/lazyLoadImage/Img.jsx'
 import PosterFallBack from '../../../assets/no-poster.png'
 
-import {PlayButton} from "../PlayButton"
-import Videopopup from '../../../Components/videoPopup/Videopopup'
+import {PlayButton} from "../PlayButton.jsx"
+import Videopopup from '../../../Components/videoPopup/Videopopup.jsx'
 
 const Detailsbanner = ({video,crew}) => {
 

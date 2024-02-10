@@ -6,7 +6,7 @@ import { VscChromeClose } from "react-icons/vsc";
 import logo from "../../assets/movix-logo.svg";
 import { useNavigate,useLocation } from 'react-router-dom';
 import "./style.scss"
-import ContentWrapper from '../contentwrapper/ContentWrapper';
+import ContentWrapper from '../contentwrapper/ContentWrapper.jsx';
 const Header = () => {
   const [show,setShow] = useState("top");
   const [lastScrolly,setLastScrolly] = useState(0);
