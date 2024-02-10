@@ -8,7 +8,7 @@ import ContentWrapper from '../../../Components/contentwrapper/ContentWrapper.js
 import UseFetch from '../../../hooks/UseFetch.jsx'
 import Genres from '../../../Components/genres/Genres.jsx'
 import CircleRating from '../../../Components/circleRating/CircleRating.jsx'
-import Img from '../../../Components/lazyLoadImage/Img.jsx'
+import Img from '../../../Components/lazyloadimage/Img.jsx'
 import PosterFallBack from '../../../assets/no-poster.png'
 
 import {PlayButton} from "../PlayButton.jsx"

@@ -6,7 +6,7 @@ import {fetchDataFromApi} from "../../utils/api"
 import ContentWrapper from '../../Components/contentwrapper/ContentWrapper.jsx'
 import MovieCard from "../../Components/movieCard/MovieCard.jsx"
 import Spinner from "../../Components/spinner/Spinner.jsx"
-import noResults from "../../assets/no-results.png"
+
 
 
 const SearchResult = () => {
